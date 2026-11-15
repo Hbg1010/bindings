@@ -7434,7 +7434,7 @@ class GameLevelManager : cocos2d::CCNode {
     void updateSavedLevelList(GJLevelList* list) = win 0x230a70;
     bool updateThread(int, int, std::string const&) = win 0x2527b0, imac 0x5780e0, m1 0x4ca540;
     void updateUsernames() = win inline, imac 0x54e4e0, m1 0x3ec9fc;
-    void updateUserScore() = win 0x236270, imac 0x5634a0, ios 0xbbf84;
+    void updateUserScore() = win 0x236270, imac 0x5634a0, ios 0xbbf84, m1 0x4b6e44;
     void uploadAccountComment(std::string content) = win inline, imac 0x56d290, m1 0x4c00b4;
     void uploadComment(std::string content, CommentType type, int levelID, int percent) = win 0x23e350, imac 0x56c2c0;
     TodoReturn uploadDeathData() = win 0x2266f0;
